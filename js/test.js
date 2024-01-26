@@ -44,9 +44,9 @@ function onConnect() {
     // console.log('Connection successful!');
 
      // Clear the text box after connection
-     textBox.value = '';
+    //  textBox.value = '';
      textBox.disabled = true;
-     textBox.style.backgroundColor ='greenyellow';
+    //  textBox.style.backgroundColor ='greenyellow';
 
     // Disable the button once connected
     connectButton.disabled = true;
