@@ -115,8 +115,8 @@ function onMessageArrived(message) {
     document.getElementById('box_cus_current3').value = values[14] ;
     document.getElementById('box_cus_usage3').value = values[15] ; 
     
-    document.getElementById('box_energy').value= Number(values[2]) + Number(values[7]) + Number(values[12]);
-    document.getElementById('box_water').value= Number(values[5]) + Number(values[10]) + Number(values[15]);
+    document.getElementById('box_energy').value= parseFloat(Number(values[2]) + Number(values[7]) + Number(values[12])).toFixed(3);
+    document.getElementById('box_water').value= parseFloat(Number(values[5]) + Number(values[10]) + Number(values[15])).toFixed(3);
   }
   else if(values[0] === "status")
   {

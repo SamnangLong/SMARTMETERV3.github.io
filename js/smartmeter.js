@@ -35,21 +35,19 @@ function onConnect() {
   connection_status = true ;
   // alert("Connect to server is success.")
 
-  const textBox = document.getElementById('box_clientID');
-  const connectButton = document.getElementById('btn_connect');
-  connectButton.disabled = true;
+  var textBox = document.getElementById('box_clientID');
+  var connectButton = document.getElementById('btn_connect');
   setTimeout(() => {
     // console.log('Connection successful!');
 
      // Clear the text box after connection
      textBox.value = '';
      textBox.disabled = true;
-     textBox.style.backgroundColor ='greenyellow';
+     textBox.style.backgroundColor ='red';
 
     // Disable the button once connected
     connectButton.disabled = true;
     connectButton.textContent = 'CONNECTED';
-    connectButton.style.Color = 'red';
 
   }, 2000);
 
