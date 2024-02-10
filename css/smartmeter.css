@@ -14,6 +14,10 @@ body {
     align-content: center;
     justify-content: center;
 }
+.top_bar img {
+    margin-left: -137px;
+    border-radius: 10px 0px 0px 10px ;
+}
 
 #title{
     font-family: Arial, Helvetica, sans-serif;
@@ -21,15 +25,15 @@ body {
     font-weight: bold;
     color: aliceblue;
     position: relative;
-    top: -12px;
-    margin-left: -250px;  
+    top: -12px; 
+    margin-left: 100px; 
 }
 
 .connect{
     position: relative;
     display: flex;
     /* align-items: center; */
-    left: 280px;
+    left: 150px;
     height: 40px;
     margin: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -49,7 +53,7 @@ body {
     /* position: relative; */
     margin-left: 2px;
     padding: 8px;
-    width: 180px;
+    width: 150px;
     height: 35px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -58,18 +62,6 @@ body {
     border: 1.5px black solid;
     border-radius: 15px;
 }
-/* .connect #btn_connect{
-    margin-left: 5px;r
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: black; 
-    text-align: center;
-    border: 1.5px black solid;
-    border-radius: 15px;
-    padding: 5px 20px 5px 20px;
-    background-color:darkgray;
-} */
-
 
 .connect #btn_connect {
     /* margin-left: 10px; */
@@ -100,8 +92,8 @@ body {
     -webkit-user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-    width: 120px;
-    height: 40px;
+    width: 110px;
+    height: 35px;
 }
   
 .connect #btn_connect:after {
@@ -761,6 +753,6 @@ input[type="checkbox"]:checked
     font-weight: bold;
     color: aliceblue;
     margin-top: 15px;
-    margin-right: -800px;
+    margin-right: -600px;
     /* text-align: end; */
 }
