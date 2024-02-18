@@ -3,22 +3,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Meter and Monitoring System</title>
-    <link rel="stylesheet" href="css/smartmeter.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="KINTEK.jpg">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
     <!-- <script src="js/smartmeter.js"></script> -->
     <script src="js/test.js"></script>
 </head>
 <body> 
+  <div class="Hold_contain">
     <div class="top_bar">
-        <img src="KINTEK.jpg" alt="KINTEK LOGO">
-        <h1 id="title">Smart Meter System</h1>
+       <img src="KINTEK.jpg" alt="KINTEK LOGO">
+        <h1 id="title">Smart Meter System</h1> 
         <div class="connect">
             <label id="label_clientID">User Name:</label>
             <div class="button">
             <input type="text" id="box_clientID" placeholder="HOME" >
             <button id="btn_connect" disabled onclick="BtnConnect()">Connect</button>
-            <!-- <img id="company" src="IMPROTECHS.jpg" alt="logo"> -->
           </div>
         </div>
     </div>
@@ -192,14 +192,13 @@
                     </div>
                   </label>
                 </div>
-            </div>
-            
+            </div>   
         </div>
-
     </div>
-    <div class="buttom_bar">
+    <div class="bottom_bar" >
       <h2>POWER BY: KINTEK TECHNOLOGY CO.,Ltd </h2>
     </div>
+  </div>
 
     <script src="js/event.js"></script>
 
